@@ -1,0 +1,52 @@
+{
+  "name": "Emotional Vocabulary for Improvisers",
+  "short_name": "Emotions",
+  "description": "548 emotion words in seven families, the line a person actually says, a 60-second naming drill, and Whelan's thesaurus workbook.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F6F3EE",
+  "theme_color": "#1F4E46",
+  "id": "./",
+  "lang": "en",
+  "categories": [
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./shot-1.png",
+      "sizes": "1080x2340",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Seven families, tap to open"
+    },
+    {
+      "src": "./shot-2.png",
+      "sizes": "1080x2340",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tap a word for the line a person says"
+    }
+  ]
+}
