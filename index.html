@@ -118,10 +118,7 @@ h1{font-family:var(--serif);font-size:clamp(24px,6.2vw,32px);font-weight:700;
       place-items:center;background:var(--surface);border:1px solid var(--line);
       color:var(--ink-2);font-weight:700;font-size:17px;flex:none;margin-top:2px}
 .icon:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.icon.rules{width:auto;height:auto;padding:0;border:0;background:none;border-radius:6px;margin:0 4px 0 0;
-  font-family:var(--serif);font-size:clamp(24px,6.2vw,32px);font-weight:700;letter-spacing:-.01em;line-height:1.1;
-  color:var(--accent);text-align:left;flex:1;display:block;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px;text-decoration-color:rgba(31,78,70,.35)}
-.icon.rules:active{opacity:.7}
+
 .openers{font-family:var(--serif);font-size:clamp(22px,6vw,30px);font-weight:700;text-align:center;line-height:1.25;color:var(--accent);margin:4px 0 14px}
 .rule{display:flex;gap:12px;margin:0 0 12px}
 .rule b{flex:none;width:26px;height:26px;border-radius:50%;background:var(--surface-2);display:grid;place-items:center;font-size:13px;color:var(--accent)}
@@ -212,6 +209,16 @@ textarea.field{width:100%;resize:vertical;line-height:1.45}
 footer{border-top:1px solid var(--line);margin-top:30px;padding-top:14px;font-size:12px;color:var(--muted);line-height:1.6}
 
 /* bottom navigation */
+nav.tabs[data-hide="1"]{display:none}
+header#hdr[data-home="1"] h1,header#hdr[data-home="1"] .sub{display:none}header#hdr[data-home="1"] .top{justify-content:flex-end}
+body[data-nav="0"] .wrap{padding-bottom:calc(24px + env(safe-area-inset-bottom))}
+header#hdr[data-home="0"] #homeBtn{display:inline-flex}#homeBtn{display:none;margin:-6px 0 2px}
+.door{all:unset;box-sizing:border-box;cursor:pointer;display:block;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line-soft);
+  border-radius:18px;box-shadow:var(--shadow);padding:26px 22px;margin:0 0 14px}
+.door b{display:block;font-family:var(--serif);font-size:clamp(28px,7.4vw,36px);font-weight:700;letter-spacing:-.01em;line-height:1.1;color:var(--accent);margin-bottom:10px}
+.door span{display:block;font-size:15px;line-height:1.5;color:var(--ink-2)}
+.door:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.door:active{transform:scale(.99)}
+#v-home{padding-top:14px}
 nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--surface);
          border-top:1px solid var(--line);display:flex;justify-content:center;
          padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
@@ -312,17 +319,24 @@ nav.tabs small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
 </head>
 <body>
 <div class="wrap">
-<header>
+<header id="hdr">
+  <button class="crumb" id="homeBtn">&larr; Home</button>
   <div class="top">
     <h1 id="title">Emotional Vocabulary</h1>
-    <button class="icon rules" id="rulesBtn" aria-label="Dialogue rules">Dialogue rules</button>
     <button class="icon" id="help" aria-label="How to use this">?</button>
   </div>
   <p class="sub" id="subline">548 words &middot; tap a family, then a word</p>
 </header>
 
+<!-- ============================== HOME ============================== -->
+<section class="view" id="v-home">
+  <div class="hint" id="installHint" role="status"></div>
+  <button class="door" id="doorWords"><b>Emotional Vocabulary</b><span>548 emotion words in seven families, from faint to extreme, with how each one is said. Also the caller, the drills, and Whelan&rsquo;s homework.</span></button>
+  <button class="door" id="doorRules"><b>Dialogue rules</b><span>Twelve rules for what you say on stage, in three groups, each with a line that breaks it and a line that keeps it.</span></button>
+</section>
+
 <!-- ============================== WORDS ============================== -->
-<section class="view" id="v-words" data-show="1">
+<section class="view" id="v-words">
   <div class="seg" role="tablist" id="wordsSeg">
     <button role="tab" aria-selected="true"  data-view="seven">Seven families</button>
     <button role="tab" aria-selected="false" data-view="thirteen">Thirteen</button>
@@ -334,8 +348,6 @@ nav.tabs small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
     <button class="btn" id="close">Close all</button>
   </div>
   <p class="count" id="count"></p>
-  <div class="hint" id="installHint" role="status"></div>
-  <div class="rod" id="rod" role="button" tabindex="0"></div>
   <div class="fams" id="fams"></div>
   <footer>
     Seven families for the room; thirteen when you want the finer distinctions. Tap any word for
@@ -343,6 +355,36 @@ nav.tabs small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
     Under each family: what I think, what I want, where it goes next.
     <span id="ver"></span>
   </footer>
+</section>
+
+<!-- ============================== DIALOGUE RULES ============================== -->
+<section class="view" id="v-rules">
+  <div id="rHome">
+    <div class="rod" id="rod" role="button" tabindex="0"></div>
+    <div class="box">
+      <p>Three groups of dialogue rules. Tap a group to walk through its rules, one at a time, each with a line that breaks it (No) and a line that keeps it (Yes).</p>
+      <div class="rgroups" id="rGroups"></div>
+      <p style="font-size:12.5px;color:var(--muted);margin:14px 0 0">The rules are multiplication tables: drill them until they are rote. They are also the painted lines on a highway: they keep you out of the ditch without choosing your route.</p>
+    </div>
+  </div>
+  <div id="rWalk" hidden>
+    <div class="box">
+      <button class="crumb" id="rBack">&larr; Groups</button>
+      <div class="rlab" id="rWhere"></div>
+      <h2 id="rTitle"></h2>
+      <p id="rText"></p>
+      <div class="pair">
+        <div class="cue" id="rCue"></div>
+        <div class="wrong"><span class="tag">No</span><p id="rWrong"></p></div>
+        <div class="right"><span class="tag">Yes</span><p id="rRight"></p></div>
+      </div>
+      <div class="row"><button class="btn" id="rAnother" style="flex:1 1 100%">Another example</button></div>
+      <div class="row rnav">
+        <button class="btn" id="rPrev">&larr; Previous rule</button>
+        <button class="btn primary" id="rNext">Next rule &rarr;</button>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- ============================== CALLER ============================== -->
@@ -509,53 +551,11 @@ nav.tabs small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
   </div>
 </div>
 
-<div class="sheet" id="rulesSheet" role="dialog" aria-modal="true" aria-label="Dialogue rules">
-  <div class="card" id="rulesCard">
-    <div id="rHome">
-      <h2>Dialogue rules</h2>
-      <p>Three groups of dialogue rules. Tap a group to walk through its rules, each with a line that breaks it and a line that keeps it. Or let the phone say a broken line and you fix it out loud.</p>
-      <div class="rgroups" id="rGroups"></div>
-      <button class="btn primary" id="rHear" style="width:100%;margin-top:10px">Hear it, say it</button>
-      <p style="font-size:12.5px;color:var(--muted);margin-top:14px">The rules are multiplication tables: drill them until they are rote. They are also the painted lines on a highway: they keep you out of the ditch without choosing your route.</p>
-      <div class="row"><button class="btn" id="rDone">Done</button></div>
-    </div>
-    <div id="rWalk" hidden>
-      <button class="crumb" id="rBack">&larr; Groups</button>
-      <div class="rlab" id="rWhere"></div>
-      <h2 id="rTitle"></h2>
-      <p id="rText"></p>
-      <div class="pair">
-        <div class="cue" id="rCue"></div>
-        <div class="wrong"><span class="tag">No</span><p id="rWrong"></p></div>
-        <div class="right"><span class="tag">Yes</span><p id="rRight"></p></div>
-      </div>
-      <div class="row"><button class="btn" id="rAnother" style="flex:1 1 100%">Another example</button></div>
-      <div class="row rnav">
-        <button class="btn" id="rPrev">&larr; Previous rule</button>
-        <button class="btn primary" id="rNext">Next rule &rarr;</button>
-      </div>
-    </div>
-    <div id="rGame" hidden>
-      <button class="crumb" id="rBack2">&larr; Groups</button>
-      <div class="rlab">Hear it, say it</div>
-      <p>The phone says a line that breaks a rule. Say a line that keeps it &mdash; out loud, before you look. Then tap to see one repair and the rule.</p>
-      <div class="pair">
-        <div class="cue" id="gCue"></div>
-        <div class="wrong"><span class="tag">No</span><p id="gWrong"></p></div>
-        <div class="right" id="gRightBox" hidden><span class="tag">Yes</span><p id="gRight"></p><small id="gRule"></small></div>
-      </div>
-      <div class="row">
-        <button class="btn" id="gAgain">Say it again</button>
-        <button class="btn primary" id="gShow">Show a repair</button>
-        <button class="btn" id="gNext">Next line</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="sheet" id="helpSheet" role="dialog" aria-modal="true" aria-label="How to use">
   <div class="card">
     <h2>How to use this</h2>
+    <p>The app opens on two doors. <b>Emotional Vocabulary</b> holds the words, the caller, the drills and Whelan. <b>Dialogue rules</b> holds the twelve rules. &ldquo;&larr; Home&rdquo; at the top takes you back.</p>
     <p><b>Seven families</b> is for the room: fear, anger, sadness, joy, want, status, surprise. Keep
     those seven names in your head. Open one and find the exact word underneath. Under each name you
     will see what a person in that family <b>thinks</b>, what they <b>want</b> to do, and where the
@@ -566,7 +566,7 @@ nav.tabs small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
     (<i>I feel ignored</i>). Every one is about your partner, so the scene stays on the two of you.</p>
     <p><b>Draw</b> gives you a random word to enter a scene carrying. Play it before you show the line.</p>
     <p><b>Caller</b>: put the phone on a chair, play a scene, and every so often it calls an action, an object, a discovery, a body state or a speech restriction that you take into the scene, spoken aloud so nobody has to read a screen. <b>Practice</b> holds the sixty-second naming drill, the ladder, and &ldquo;Can you see it?&rdquo; for two at home. <b>Whelan</b> is his thesaurus homework, one root at a time. Nothing you do in Caller or Practice is recorded.</p>
-    <p><b>Dialogue rules</b>, beside this button, opens the twelve dialogue rules in three groups, each with a line that breaks it and a line that keeps it, and &ldquo;Hear it, say it&rdquo;: the phone speaks a broken line and you fix it out loud. The rule of the day sits at the top of Words.</p>
+    <p><b>Dialogue rules</b>: three groups, twelve rules, each with a line that breaks it (No) and a line that keeps it (Yes). The rule of the day sits at the top and opens its rule.</p>
     <p><b>Physical states</b> are not emotions. They are ways in when nothing else has arrived.</p>
     <h3>Put it on your home screen</h3>
     <p><b>iPhone &mdash; in Safari:</b></p>
@@ -600,30 +600,36 @@ const store = {
 };
 
 /* ============================== state ============================== */
-let tab = "words", view = "seven", query = "", open = new Set();
+let tab = "home", view = "seven", query = "", open = new Set();
 (function(){
   const s = store.get("emo-state", {});
   if (s.view === "seven" || s.view === "thirteen") view = s.view;
   if (s.view === "six") view = "seven";
   if (Array.isArray(s.open)) open = new Set(s.open);
-  if (["words","caller","practice","whelan"].includes(s.tab)) tab = s.tab; if (s.tab === "drill") tab = "practice";
+  tab = "home";
 })();
-function save(){ store.set("emo-state", {view, open:[...open], tab}); }
+function save(){ store.set("emo-state", {view, open:[...open]}); }
 
 /* ============================== tabs ============================== */
 function showTab(t){
   tab = t; save();
   document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t));
-  ["words","caller","practice","whelan"].forEach(k => $("v-" + k).dataset.show = (k === t) ? "1" : "0");
+  ["home","words","rules","caller","practice","whelan"].forEach(k => $("v-" + k).dataset.show = (k === t) ? "1" : "0");
+  $("hdr").dataset.home = t === "home" ? "1" : "0";
+  const noNav = (t === "home" || t === "rules"); document.querySelector("nav.tabs").dataset.hide = noNav ? "1" : "0"; document.body.dataset.nav = noNav ? "0" : "1";
   if (t !== "caller" && typeof callStop === "function") callStop();
   if (t !== "practice" && typeof reset === "function" && dm && dm.running) reset();
-  $("title").textContent = t === "words" ? "Emotional Vocabulary" : t === "caller" ? "The caller" : t === "practice" ? "Practice" : "Whelan";
+  $("title").textContent = t === "words" ? "Emotional Vocabulary" : t === "rules" ? "Dialogue rules" : t === "caller" ? "The caller" : t === "practice" ? "Practice" : "Whelan";
   $("subline").textContent = t === "words" ? D.counts.words + " words · tap a family, then a word"
+    : t === "rules" ? "twelve rules in three groups · tap a group"
     : t === "caller" ? "phone on a chair · it calls, you take it into the scene"
     : t === "practice" ? "drills for one or two · nothing is kept" : "one root at a time · saved on this phone";
   window.scrollTo({top:0, behavior:"instant"});
 }
 document.querySelectorAll("nav.tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
+$("homeBtn").onclick = () => showTab("home");
+$("doorWords").onclick = () => showTab("words");
+$("doorRules").onclick = () => { if (typeof rShow === "function") rShow("rHome"); showTab("rules"); };
 
 /* ============================== words ============================== */
 const famsEl = $("fams"), countEl = $("count"), qEl = $("q");
@@ -967,9 +973,8 @@ renderRoots();
 /* ============================== dialogue rules ============================== */
 const RULES = D.rules;
 const FLAT = []; RULES.forEach((g, gi) => g.rules.forEach((r, ri) => FLAT.push(Object.assign({ g: gi, gname: g.name, n: FLAT.length + 1 }, r))));
-const rulesSheet = $("rulesSheet");
-let rw = { i: 0, p: 0 }, gm = { k: 0 };
-function rShow(which){ ["rHome","rWalk","rGame"].forEach(id => $(id).hidden = id !== which); rulesSheet.querySelector(".card").scrollTop = 0; }
+let rw = { i: 0, p: 0 };
+function rShow(which){ ["rHome","rWalk"].forEach(id => $(id).hidden = id !== which); window.scrollTo({top:0, behavior:"instant"}); }
 function fmtRight(pr){ return (pr.act ? '<em>[' + esc(pr.act) + ']</em>' : '') + esc(pr.right); }
 function rPaint(){
   const r = FLAT[rw.i], pr = r.pairs[rw.p % r.pairs.length];
@@ -985,21 +990,8 @@ $("rGroups").addEventListener("click", e => { const b = e.target.closest("button
 $("rAnother").onclick = () => { rw.p++; rPaint(); };
 $("rNext").onclick = () => { if (rw.i >= FLAT.length - 1){ rShow("rHome"); return; } rw.i++; rw.p = 0; rPaint(); };
 $("rPrev").onclick = () => { if (rw.i <= 0) return; rw.i--; rw.p = 0; rPaint(); };
-$("rBack").onclick = () => rShow("rHome"); $("rBack2").onclick = () => rShow("rHome");
-function gPick(){
-  const r = FLAT[Math.floor(Math.random() * FLAT.length)], pr = r.pairs[Math.floor(Math.random() * r.pairs.length)];
-  gm.r = r; gm.pr = pr;
-  $("gCue").textContent = pr.cue ? "[" + pr.cue + "]" : ""; $("gWrong").textContent = pr.wrong;
-  $("gRightBox").hidden = true; $("gRight").innerHTML = fmtRight(pr); $("gRule").textContent = "Rule " + r.n + ": " + r.title;
-  gSay();
-}
-function gSay(){ try { if ("speechSynthesis" in window){ window.speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(gm.pr.wrong.replace(/\//g, ". ")); u.rate = 0.95; window.speechSynthesis.speak(u); } } catch(e){} }
-$("rHear").onclick = () => { rShow("rGame"); gPick(); };
-$("gAgain").onclick = gSay; $("gShow").onclick = () => { $("gRightBox").hidden = false; }; $("gNext").onclick = gPick;
-function openRules(atRule){ rulesSheet.dataset.show = "1"; if (atRule != null){ rw.i = atRule; rw.p = 0; rPaint(); rShow("rWalk"); } else rShow("rHome"); }
-$("rulesBtn").onclick = () => openRules(null);
-$("rDone").onclick = () => { rulesSheet.dataset.show = "0"; try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch(e){} };
-rulesSheet.addEventListener("click", e => { if (e.target === rulesSheet) $("rDone").onclick(); });
+$("rBack").onclick = () => rShow("rHome");
+function openRules(atRule){ if (atRule != null){ rw.i = atRule; rw.p = 0; rPaint(); rShow("rWalk"); } else rShow("rHome"); showTab("rules"); }
 // rule of the day: the same rule on every phone, changing daily, no storage
 (function(){
   const d = new Date(); const day = Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())) / 86400000);
@@ -1014,7 +1006,7 @@ const helpSheet = $("helpSheet");
 $("help").onclick = () => { helpSheet.dataset.show = "1"; };
 $("hDone").onclick = () => { helpSheet.dataset.show = "0"; };
 helpSheet.addEventListener("click", e => { if (e.target === helpSheet) helpSheet.dataset.show = "0"; });
-document.addEventListener("keydown", e => { if (e.key === "Escape") { drawSheet.dataset.show = "0"; helpSheet.dataset.show = "0"; $("rDone").onclick(); } });
+document.addEventListener("keydown", e => { if (e.key === "Escape") { drawSheet.dataset.show = "0"; helpSheet.dataset.show = "0"; } });
 
 /* ============================== install affordance ============================== */
 const hint = $("installHint");

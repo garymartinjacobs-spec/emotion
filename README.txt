@@ -12,13 +12,15 @@ in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
 NEW IN v4 (2 Sept 2026)
-  DIALOGUE RULES button (top of every screen): Gellman's twelve rules in
-  three groups - Before you speak, What to say, How to say it. Each rule
-  shows a line that breaks it and a line that keeps it (Wrong / Right).
-  "Hear it, say it": the phone speaks a broken line, you repair it aloud,
-  then tap to see one repair. Rule of the day on the Words tab, the same
-  rule on every phone. The Caller has a "Dialogue rules" switch that calls
-  the rules aloud during a scene.
+  TWO DOORS: the app opens on a landing page with two large buttons,
+  Emotional Vocabulary (words, caller, drills, Whelan) and Dialogue rules.
+  "<- Home" at the top of every screen returns to it.
+  DIALOGUE RULES: twelve rules in three groups - Before you speak, What to
+  say, How to say it. Tap a group and walk the rules one at a time, each
+  with a line that breaks it (No, red) and a line that keeps it (Yes,
+  green); Another example, Previous rule, Next rule. Rule of the day at
+  the top, the same rule on every phone. The Caller has a "Dialogue rules"
+  switch that calls the rules aloud.
   CALLER tab: put the phone on a chair and play a scene; at a set interval
   (15-90 s) it calls out - aloud, offline - an action, an object, a
   discovery, a body state, a speech rule, a silent switch, or "heighten". Pairs practise without a coach. Nothing is recorded.
