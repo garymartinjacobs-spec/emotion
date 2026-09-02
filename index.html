@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<title>Emotions</title>
+<title>Scene Coach</title>
 <link rel="manifest" href="./manifest.webmanifest">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F3EE">
 <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#16130F">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Emotions">
+<meta name="apple-mobile-web-app-title" content="Scene Coach">
 <link rel="apple-touch-icon" href="./apple-touch-icon.png">
 <link rel="icon" href="./icon-192.png">
 <style>
@@ -210,7 +210,7 @@ footer{border-top:1px solid var(--line);margin-top:30px;padding-top:14px;font-si
 
 /* bottom navigation */
 nav.tabs[data-hide="1"]{display:none}
-header#hdr[data-home="1"] h1,header#hdr[data-home="1"] .sub{display:none}header#hdr[data-home="1"] .top{justify-content:flex-end}
+header#hdr[data-home="1"] h1{color:var(--accent)}
 body[data-nav="0"] .wrap{padding-bottom:calc(24px + env(safe-area-inset-bottom))}
 header#hdr[data-home="0"] #homeBtn{display:inline-flex}#homeBtn{display:none;margin:-6px 0 2px}
 .door{all:unset;box-sizing:border-box;cursor:pointer;display:block;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line-soft);
@@ -218,7 +218,7 @@ header#hdr[data-home="0"] #homeBtn{display:inline-flex}#homeBtn{display:none;mar
 .door b{display:block;font-family:var(--serif);font-size:clamp(28px,7.4vw,36px);font-weight:700;letter-spacing:-.01em;line-height:1.1;color:var(--accent);margin-bottom:10px}
 .door span{display:block;font-size:15px;line-height:1.5;color:var(--ink-2)}
 .door:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.door:active{transform:scale(.99)}
-#v-home{padding-top:14px}
+#v-home{padding-top:6px}
 nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--surface);
          border-top:1px solid var(--line);display:flex;justify-content:center;
          padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
@@ -331,7 +331,7 @@ nav.tabs small{display:block;font-size:11px;font-weight:500;color:var(--muted)}
 <!-- ============================== HOME ============================== -->
 <section class="view" id="v-home">
   <div class="hint" id="installHint" role="status"></div>
-  <button class="door" id="doorWords"><b>Emotional Vocabulary</b><span>548 emotion words in seven families, from faint to extreme, with how each one is said. Also the caller, the drills, and Whelan&rsquo;s homework.</span></button>
+  <button class="door" id="doorWords"><b>Emotional Vocabulary</b><span>548 emotion words in seven families, from faint to extreme, with how each one is said. Also side coaching during scenes, and drills.</span></button>
   <button class="door" id="doorRules"><b>Dialogue rules</b><span>Twelve rules for what you say on stage, in three groups, each with a line that breaks it and a line that keeps it.</span></button>
 </section>
 
@@ -619,8 +619,9 @@ function showTab(t){
   const noNav = (t === "home" || t === "rules"); document.querySelector("nav.tabs").dataset.hide = noNav ? "1" : "0"; document.body.dataset.nav = noNav ? "0" : "1";
   if (t !== "caller" && typeof callStop === "function") callStop();
   if (t !== "practice" && typeof reset === "function" && dm && dm.running) reset();
-  $("title").textContent = t === "words" ? "Emotional Vocabulary" : t === "rules" ? "Dialogue rules" : t === "caller" ? "The caller" : t === "practice" ? "Practice" : "Whelan";
-  $("subline").textContent = t === "words" ? D.counts.words + " words · tap a family, then a word"
+  $("title").textContent = t === "home" ? "Scene Coach" : t === "words" ? "Emotional Vocabulary" : t === "rules" ? "Dialogue rules" : t === "caller" ? "The caller" : t === "practice" ? "Practice" : "Whelan";
+  $("subline").textContent = t === "home" ? "emotional vocabulary, dialogue rules, and exercises for improvisers"
+    : t === "words" ? D.counts.words + " words · tap a family, then a word"
     : t === "rules" ? "twelve rules in three groups · tap a group"
     : t === "caller" ? "phone on a chair · it calls, you take it into the scene"
     : t === "practice" ? "drills for one or two · nothing is kept" : "one root at a time · saved on this phone";

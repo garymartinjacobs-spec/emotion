@@ -1,5 +1,5 @@
-EMOTIONAL VOCABULARY - the installable app (v4)
-================================================
+SCENE COACH (formerly Emotional Vocabulary) - the installable app (v4)
+======================================================================
 
 WHAT THIS IS
 A web app that installs on iPhone and Android like any other app, with an icon
@@ -12,6 +12,8 @@ in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
 NEW IN v4 (2 Sept 2026)
+  NAME: the app is now called Scene Coach (icon label too). Phones that
+  installed it under the old name keep that label until it is re-added.
   TWO DOORS: the app opens on a landing page with two large buttons,
   Emotional Vocabulary (words, caller, drills, Whelan) and Dialogue rules.
   "<- Home" at the top of every screen returns to it.
@@ -73,7 +75,7 @@ iPHONE  (must be Safari - Chrome on iPhone cannot install web apps)
        (iOS 18 or earlier: tap the Share button - the square with an arrow.)
   3. Tap "Share", then scroll and tap "Add to Home Screen".
   4. Leave "Open as Web App" switched ON. Tap "Add".
-  5. Find the green "Emotions" icon on your home screen. Open it.
+  5. Find the green "Scene Coach" icon on your home screen. Open it.
   6. Turn on Airplane Mode and open it again. It should still work.
 
 ANDROID  (Chrome)
@@ -81,7 +83,7 @@ ANDROID  (Chrome)
   2. Either tap the "Install" button the app shows at the top, or
      tap the three-dot menu (top right) -> "Add to Home screen" or "Install app".
   3. Tap "Install".
-  4. Open "Emotions" from the home screen or app drawer.
+  4. Open "Scene Coach" from the home screen or app drawer.
   5. Turn on Airplane Mode and open it again. It should still work.
 
 If an install option does not appear on Android, use the page for 30 seconds

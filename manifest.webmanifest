@@ -1,7 +1,7 @@
 {
-  "name": "Emotional Vocabulary for Improvisers",
-  "short_name": "Emotions",
-  "description": "548 emotion words in seven families, the line a person actually says, a 60-second naming drill, and Whelan's thesaurus workbook.",
+  "name": "Scene Coach",
+  "short_name": "Scene Coach",
+  "description": "Emotional vocabulary and dialogue rules for improvisers: 548 emotion words in seven families, twelve dialogue rules with Yes and No lines, a caller for scenes, drills, and Whelan's thesaurus workbook.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
