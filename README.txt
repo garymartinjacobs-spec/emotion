@@ -6,7 +6,7 @@ A web app that installs on iPhone and Android like any other app, with an icon
 on the home screen, and works with no signal. All 548 words in both groupings
 (seven families and thirteen), the "how you make me feel" strip, Draw (a random
 word to enter a scene with), the 60-second naming DRILL (say it or type it,
-cued by family or not, with a personal best), and WHELAN - his thesaurus
+cued by family or not, with a personal best), and RANKING - Whelan's thesaurus
 homework, one root at a time, saved on the phone and copied or shared to send
 in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
@@ -21,9 +21,9 @@ NEW IN v4 (2 Sept 2026)
   say, How to say it. Tap a group and walk the rules one at a time, each
   with a line that breaks it (No, red) and a line that keeps it (Yes,
   green); Another example, Previous rule, Next rule. Rule of the day at
-  the top, the same rule on every phone. The Caller has a "Dialogue rules"
+  the top, the same rule on every phone. The Coach has a "Dialogue rules"
   switch that calls the rules aloud.
-  CALLER tab: put the phone on a chair and play a scene; at a set interval
+  COACH tab (labelled Caller until 2 Sept): put the phone on a chair and play a scene; at a set interval
   (15-90 s) it calls out - aloud, offline - an action, an object, a
   discovery, a body state, a speech rule, a silent switch, or "heighten". Pairs practise without a coach. Nothing is recorded.
   PRACTICE tab: Name 30 (no scores kept), the Ladder flashcard, and
