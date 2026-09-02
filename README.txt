@@ -12,6 +12,13 @@ in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
 NEW IN v4 (2 Sept 2026)
+  DIALOGUE RULES button (top of every screen): Gellman's twelve rules in
+  three groups - Before you speak, What to say, How to say it. Each rule
+  shows a line that breaks it and a line that keeps it (Wrong / Right).
+  "Hear it, say it": the phone speaks a broken line, you repair it aloud,
+  then tap to see one repair. Rule of the day on the Words tab, the same
+  rule on every phone. The Caller has a "Dialogue rules" switch that calls
+  the rules aloud during a scene.
   CALLER tab: put the phone on a chair and play a scene; at a set interval
   (15-90 s) it calls out - aloud, offline - an action, an object, a
   discovery, a body state, a speech rule, a silent switch, or "heighten". Pairs practise without a coach. Nothing is recorded.
@@ -37,14 +44,14 @@ FILES (upload all of them, exactly as named)
   shot-1.png  shot-2.png   screenshots Android shows on its install sheet
 
 ----------------------------------------------------------------------------
-STEP 1 - PUT IT ONLINE  (once, about 10 minutes, free, permanent)
+STEP 1 - PUT IT ONLINE  (already done on 2 Sept 2026 - kept for reference)
 ----------------------------------------------------------------------------
 Installing to a home screen requires a real https address, so the files have
 to live on the web. GitHub Pages is free and does not expire.
 
   1. Go to github.com -> Sign up (free). Confirm the email.
   2. Top-right "+" -> "New repository".
-       Repository name:  emotions
+       Repository name:  emotion
        Public.  Click "Create repository".
   3. On the page that appears click "uploading an existing file".
   4. Drag ALL the files listed above into the box. Click "Commit changes".
@@ -52,7 +59,7 @@ to live on the web. GitHub Pages is free and does not expire.
        Under Build and deployment -> Branch: choose "main", folder "/ (root)".
        Click Save.
   6. Wait 1-2 minutes, reload that Pages screen. It shows your address:
-       https://garymartinjacobs-spec.github.io/emotions/
+       https://garymartinjacobs-spec.github.io/emotion/
      Open it on your phone. That link is yours for as long as you want it.
 
 ----------------------------------------------------------------------------
