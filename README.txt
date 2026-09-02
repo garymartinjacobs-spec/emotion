@@ -6,16 +6,16 @@ A web app that installs on iPhone and Android like any other app, with an icon
 on the home screen, and works with no signal. All 548 words in both groupings
 (seven families and thirteen), the "how you make me feel" strip, Draw (a random
 word to enter a scene with), the 60-second naming DRILL (say it or type it,
-cued by family or not, with a personal best), and RANKING - Whelan's thesaurus
-homework, one root at a time, saved on the phone and copied or shared to send
-in. A ? screen carries the instructions inside the app. No app store. No
+cued by family or not, with a personal best), and RANKING - homework: ladders of up
+to ten words from one family to put in order from least to most intense, our
+placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
 NEW IN v4 (2 Sept 2026)
   NAME: the app is now called Scene Coach (icon label too). Phones that
   installed it under the old name keep that label until it is re-added.
   TWO DOORS: the app opens on a landing page with two large buttons,
-  Emotional Vocabulary (words, caller, drills, Whelan) and Dialogue rules.
+  Emotional Vocabulary (words, coach, drills, ranking) and Dialogue rules.
   "<- Home" at the top of every screen returns to it.
   DIALOGUE RULES: twelve rules in three groups - Before you speak, What to
   say, How to say it. Tap a group and walk the rules one at a time, each
@@ -23,12 +23,18 @@ NEW IN v4 (2 Sept 2026)
   green); Another example, Previous rule, Next rule. Rule of the day at
   the top, the same rule on every phone. The Coach has a "Dialogue rules"
   switch that calls the rules aloud.
+  RANKING tab (replaces Whelan's thesaurus, removed 2 Sept for copyright and
+  because his categories were not adopted): 56 ladders drawn from the
+  thirteen categories (physical states left out), each up to ten words
+  spanning faint to extreme, fixed and the same on every phone; the student
+  taps the least intense emotion first; when the ladder is full the app shows our
+  rung beside each word, no score.
   COACH tab (labelled Caller until 2 Sept): put the phone on a chair and play a scene; at a set interval
   (15-90 s) it calls out - aloud, offline - an action, an object, a
   discovery, a body state, a speech rule, a silent switch, or "heighten". Pairs practise without a coach. Nothing is recorded.
   PRACTICE tab: Name 30 (no scores kept), the Ladder flashcard, and
   "Can you see it?" for two at home. Drill history and personal bests
-  removed at Gary's request; only Whelan sheets are saved, on the phone.
+  removed at Gary's request; only finished ladders are saved, on the phone.
 
 NEW IN v3 (1 Sept 2026)
   Seven families replace six (WANT split out of JOY; STATUS sub-groups by
