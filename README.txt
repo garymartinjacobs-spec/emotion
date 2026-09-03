@@ -11,6 +11,11 @@ to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
+NEW IN v4.1 (3 Sept 2026)
+  TEXT SIZE: the ? screen has a Regular / Large / Larger switch beside
+  Appearance, saved on the phone; all three also follow the phone's own
+  text-size setting (iPhone Dynamic Type, Android font size).
+
 NEW IN v4 (2 Sept 2026)
   APPEARANCE: the ? screen has an Automatic / Light / Dark switch, saved on
   the phone; Automatic follows the phone's own setting. The Words footer
