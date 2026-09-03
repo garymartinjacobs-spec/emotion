@@ -35,7 +35,7 @@ NEW IN v4 (2 Sept 2026)
   rung beside each word, no score.
   COACH tab (labelled Caller until 2 Sept): put the phone on a chair and play a scene; at a set interval
   (15-90 s) it calls out - aloud, offline - an action, an object, a
-  discovery, a body state, a speech rule, a silent switch, or "heighten". Pairs practise without a coach. Nothing is recorded.
+  discovery, a body state, a speech rule, a silent switch, or "heighten". Pairs practice without a coach. Nothing is recorded.
   PRACTICE tab: Name 30 (no scores kept), the Ladder flashcard, and
   "Can you see it?" for two at home. Drill history and personal bests
   removed at Gary's request; only finished ladders are saved, on the phone.
