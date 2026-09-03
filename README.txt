@@ -13,8 +13,8 @@ developer account. No annual fee.
 
 NEW IN v4.1 (3 Sept 2026)
   TEXT SIZE: the ? screen has a Regular / Large / Larger switch beside
-  Appearance, saved on the phone; all three also follow the phone's own
-  text-size setting (iPhone Dynamic Type, Android font size).
+  Appearance, saved on the phone. Regular is a touch larger than v4; the
+  sizes are fixed, the same on every phone. The ? screen has headings.
 
 NEW IN v4 (2 Sept 2026)
   APPEARANCE: the ? screen has an Automatic / Light / Dark switch, saved on
