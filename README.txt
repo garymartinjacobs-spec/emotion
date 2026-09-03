@@ -12,6 +12,10 @@ placing shown after; saved on the phone and copied to send in. A ? screen carrie
 developer account. No annual fee.
 
 NEW IN v4 (2 Sept 2026)
+  APPEARANCE: the ? screen has an Automatic / Light / Dark switch, saved on
+  the phone; Automatic follows the phone's own setting. The Words footer
+  and the ? screen show the build date and time, so you can tell whether a
+  phone has the latest version.
   NAME: the app is now called Scene Coach (icon label too). Phones that
   installed it under the old name keep that label until it is re-added.
   TWO DOORS: the app opens on a landing page with two large buttons,
