@@ -3,7 +3,7 @@ SCENE COACH (formerly Emotional Vocabulary) - the installable app (v4)
 
 WHAT THIS IS
 A web app that installs on iPhone and Android like any other app, with an icon
-on the home screen, and works with no signal. All 548 words in both groupings
+on the home screen, and works with no signal. All 968 words in both groupings
 (seven families and thirteen), the "how you make me feel" strip, Draw (a random
 word to enter a scene with), the 60-second naming DRILL (say it or type it,
 cued by family or not, with a personal best), and RANKING - homework: ladders of up
@@ -127,3 +127,16 @@ IF YOU NEVER PUT IT ONLINE
 ----------------------------------------------------------------------------
 index.html works on its own from any browser, any device, forever - email it
 to yourself and open it. You lose only the home-screen icon and offline mode.
+
+v4.2 (4 Sept 2026)
+  420 words added (968 in all: 909 emotion words + 59 physical states, plus the
+  86 how-you-make-me-feel words), from Whelan's dictionary and the words the
+  naming drill had rejected. Home screen shows the seven families at a glance;
+  tap one for its words. Coach: "Point-of-view scene" preset; "four words at a
+  time" and "move before you speak" speech restrictions. Practice: "Move your
+  partner" and "Name it" drills; physical states typed in the naming drill are
+  shown in gray and not counted. Each word card has "Report a problem with this
+  word" (email). "A newer version is ready - tap to reload" bar replaces the
+  automatic reload. Dialogue rules: rules 2 and 3 reworded, point-of-view and
+  stay-in-the-present explanations rewritten, "Exclaim; don't label" moved to
+  How to say it (rule 12).
