@@ -29,8 +29,8 @@ NEW IN v4 (2 Sept 2026)
   DIALOGUE RULES: twelve rules in three groups - Before you speak, What to
   say, How to say it. Tap a group and walk the rules one at a time, each
   with a line that breaks it (No, red) and a line that keeps it (Yes,
-  green); Another example, Previous rule, Next rule. Rule of the day at
-  the top, the same rule on every phone. The Coach has a "Dialogue rules"
+  green); Another example, Previous rule, Next rule. (The rule of the day
+  was removed in v4.2 at Gary's request.) The Coach has a "Dialogue rules"
   switch that calls the rules aloud.
   RANKING tab (replaces Whelan's thesaurus, removed 2 Sept for copyright and
   because his categories were not adopted): 56 ladders drawn from the
@@ -139,4 +139,5 @@ v4.2 (4 Sept 2026)
   word" (email). "A newer version is ready - tap to reload" bar replaces the
   automatic reload. Dialogue rules: rules 2 and 3 reworded, point-of-view and
   stay-in-the-present explanations rewritten, "Exclaim; don't label" moved to
-  How to say it (rule 12).
+  How to say it (rule 12); rule of the day removed (too busy; twelve rules
+  are easy to browse).
