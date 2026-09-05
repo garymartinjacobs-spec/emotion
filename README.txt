@@ -3,13 +3,45 @@ SCENE COACH (formerly Emotional Vocabulary) - the installable app (v4)
 
 WHAT THIS IS
 A web app that installs on iPhone and Android like any other app, with an icon
-on the home screen, and works with no signal. All 968 words in both groupings
-(seven families and thirteen), the "how you make me feel" strip, Draw (a random
-word to enter a scene with), the 60-second naming DRILL (say it or type it,
+on the home screen, and works with no signal. All 931 words in both groupings
+(seven families and thirteen), the "how you make me feel" strip, the 60-second naming DRILL (say it or type it,
 cued by family or not, with a personal best), and RANKING - homework: ladders of up
 to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
+
+NEW IN v4.3 (5 Sept 2026) - after the independent review
+  WORDS: 65 words that named a trait, a judgment or someone else's conduct
+  (villainous, cruel, bathetic, irascible, chivalrous...) are out; five
+  received states (deceived, tyrannized, victimized, enslaved, subjugated)
+  moved to HOW YOU MAKE ME FEEL; 28 everyday and faint words added (down,
+  blah, bummed, pissed off, freaked out, heartache, in love...); 50 words
+  refiled (numb and its kin out of CALM into a new SADNESS group NUMB; guilt
+  words into STATUS LOW - GUILTY; smug and superior to ARROGANT; awestruck to
+  SURPRISE; five PHYSICAL groups). 132 sample lines rewritten to be shorter,
+  spoken and legible. 931 words in all.
+  TYPE IT AND SEARCH accept 180 other forms (anger, hate, jealousy, burnt
+  out...) and count each with its word once.
+  COACH: cannot start with nothing to call; options lock while a scene runs;
+  the first call comes one interval after Go; the point-of-view preset locks
+  the interval and is remembered; Test the voice button and a message when
+  the phone cannot speak; discoveries are about the place, never the
+  partner.
+  PRACTICE: "Can you see it?" removed (it asked an actor to play a chosen
+  emotion). The ladder compares like with like (by the thirteen categories)
+  and includes noun-only words. "Move your partner" can start from a faint
+  word.
+  WORDS: tapping a word opens its card directly under the word, not below
+  the whole group. Home-screen family buttons clear any search.
+  RANKING: ladders rebuilt from the original list plus the 105 most common
+  of the added words; the rare additions stay in Words but out of the
+  homework. Earlier saved rankings do not match and are cleared.
+  DRAW removed: it handed the actor an emotion to carry into a scene.
+  HOME SCREEN: the seven-families block (v4.2) is gone; the landing page
+  is the two doors again. The families are one tap away behind Emotional
+  Vocabulary.
+  DIALOGUE RULES: Gary's new example pairs for rules 5, 9 and 12.
+  ? SCREEN: reworded where it was out of date.
 
 NEW IN v4.1 (3 Sept 2026)
   TEXT SIZE: the ? screen has a Regular / Large / Larger switch beside
@@ -33,7 +65,7 @@ NEW IN v4 (2 Sept 2026)
   was removed in v4.2 at Gary's request.) The Coach has a "Dialogue rules"
   switch that calls the rules aloud.
   RANKING tab (replaces Whelan's thesaurus, removed 2 Sept for copyright and
-  because his categories were not adopted): 56 ladders drawn from the
+  because his categories were not adopted): ladders drawn from the
   thirteen categories (physical states left out), each up to ten words
   spanning faint to extreme, fixed and the same on every phone; the student
   taps the least intense emotion first; when the ladder is full the app shows our
