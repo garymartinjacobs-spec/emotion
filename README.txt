@@ -1,5 +1,6 @@
 SCENE COACH (formerly Emotional Vocabulary) - the installable app (v4)
 ======================================================================
+© 2026 Gary Jacobs. All rights reserved.
 
 WHAT THIS IS
 A web app that installs on iPhone and Android like any other app, with an icon
@@ -9,6 +10,12 @@ cued by family or not, with a personal best), and RANKING - homework: ladders of
 to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
+
+NEW IN v4.5 (6 Sept 2026) - copyright notice
+  The notice "© 2026 Gary Jacobs. All rights reserved." is on the home screen
+  under the doors, at the foot of the "?" sheet beneath the build stamp, in a
+  comment at the top of index.html, and at the top of this file. Nothing else
+  changed.
 
 NEW IN v4.4 (6 Sept 2026) - after the usability review (deployed 6 Sept 2026)
   THREE DOORS: the landing page has Emotional Vocabulary, Dialogue rules and
