@@ -93,6 +93,9 @@ NEW IN v4.4 (6 Sept 2026) - after the usability review (deployed 6 Sept 2026)
   caption above it, "The words are in these groups. Tap one to jump to
   it.", and each name carries its count (WARY 17), so a first-time reader
   does not take the names for an exhaustive list of the family's emotions.
+  The "Dialogue rules" call type stays, but rule 1's call ("start in
+  silence") is no longer among the calls: it applies only before a scene
+  has begun. Eleven rule calls; the walk still has twelve rules.
   TESTS: every script runs on 320, 393 and 430 px, at Regular / Large /
   Larger and in light and dark (matrix.js); test_v44.js covers the doors,
   the bar, the grid and family screens, the Coach states and Name it;
