@@ -10,7 +10,7 @@ to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
-NEW IN v4.4 (6 Sept 2026) - after the usability review (built, not yet deployed)
+NEW IN v4.4 (6 Sept 2026) - after the usability review (deployed 6 Sept 2026)
   THREE DOORS: the landing page has Emotional Vocabulary, Dialogue rules and
   Spoken coach (the Coach is a door of its own). The same three names sit in
   a bar at the bottom of every inner screen; Words / Practice / Ranking are
