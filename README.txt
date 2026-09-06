@@ -85,6 +85,14 @@ NEW IN v4.4 (6 Sept 2026) - after the usability review (deployed 6 Sept 2026)
   MANIFEST: the description no longer carries a word count that was out
   of date, and the two screenshots Android shows on its install sheet are
   of this version (the Words grid; a word card).
+  SECOND BUILD, LATER ON 6 SEPT (after Gary's look at the phone): the
+  Coach's "Point-of-view scene" preset is gone (the dialogue rules cannot
+  be called at random; "start in silence" does not apply once a scene has
+  begun), so Settings holds What it calls, Time between calls, Scene
+  length and Voice. On a family's screen the row of group names now has a
+  caption above it, "The words are in these groups. Tap one to jump to
+  it.", and each name carries its count (WARY 17), so a first-time reader
+  does not take the names for an exhaustive list of the family's emotions.
   TESTS: every script runs on 320, 393 and 430 px, at Regular / Large /
   Larger and in light and dark (matrix.js); test_v44.js covers the doors,
   the bar, the grid and family screens, the Coach states and Name it;
