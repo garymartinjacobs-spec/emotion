@@ -11,7 +11,16 @@ to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
-NEW IN v4.6 (7 Sept 2026) - six Practice exercises (NOT deployed: Gary's word first)
+NEW IN v4.7 (7 Sept 2026) - the Spoken coach deals each kind of call from a shuffled deck (deployed 8 Sept 2026)
+  Actions, objects, discoveries, body states, speech restrictions, silent
+  switches and dialogue rules are each dealt from a shuffled deck: no call
+  of a kind is repeated until every call of that kind has been spoken once,
+  and a fresh deck never opens with the call that closed the last one.
+  Before this, only the immediately previous call of a kind was avoided, so
+  the third call could repeat the first (Gary noticed it using "Next call
+  now"). The decks live in memory for the session. Nothing else changed.
+
+NEW IN v4.6 (7 Sept 2026) - six Practice exercises (deployed 7 Sept 2026, commit 064dad7)
   PRACTICE is a list of six rows, each opening its exercise on its own screen
   with "<- All exercises" at the top (Gary's Decision 2 of 7 Sept 2026,
   replacing the folded cards of Decision 7). Name 30 in a minute and The
