@@ -11,7 +11,52 @@ to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
-NEW IN v4.5 (6 Sept 2026) - copyright notice
+NEW IN v4.6 (7 Sept 2026) - six Practice exercises (NOT deployed: Gary's word first)
+  PRACTICE is a list of six rows, each opening its exercise on its own screen
+  with "<- All exercises" at the top (Gary's Decision 2 of 7 Sept 2026,
+  replacing the folded cards of Decision 7). Name 30 in a minute and The
+  ladder are unchanged in wording and behavior. "Move your partner" is
+  rebuilt as "How might they respond?" (a situation, five words, a rank of
+  1 to 5 or Not sure for each, ties allowed, then the readings in the order
+  you ranked them and a word comparison), "Name it" is rebuilt with its title kept (a situation,
+  six words each marked Might feel / Wouldn't feel here / Not sure, fit
+  ranks for the Might feel words, then a comparison and a reflection
+  choice; no typing box, no "Show our word"), and two are new: "Close
+  neighbors" (two nearby words, the detail that guided you, then which word
+  the wording emphasizes) and "One detail changes" (up to three words, or
+  None of these / Not sure; one new fact; choose again; before and after).
+  Five rounds each, twenty in all, with short word meanings under "Word
+  meanings" (53 in the package, 66 after Gary's revisions), each linking to
+  its dictionary entry (Merriam-Webster; Oxford Advanced Learner's
+  Dictionary for "aggrieved" and one sense of "bitter").
+  The four come verbatim from ChatGPT's approved package of 7 Sept 2026
+  (kept in the source folder as practice_exercises.json, practice_copy.json
+  and practice-handoff-7-sept-2026/). Nothing is scored, recorded or kept;
+  a round can be skipped; the end of an exercise offers the other three and
+  "Try these rounds again"; Back, the crumb and "Choose another exercise"
+  return to the list of six. The "?" sheet's Practice paragraph names the
+  six. The ranks are rows of tappable numbers rather than the package's
+  drop-downs (tapping over pickers, Gary's ruling of 7 Sept 2026).
+  Later on 7 Sept, after Gary's review of the content, the app's copy of the
+  approved text was revised (the package itself is kept as approved): "Not
+  sure" is the one uncertainty label in all four exercises (the package's
+  "Hard to judge" and "I'm not sure" are gone); Name it's instruction says
+  "fit, not intensity"; Close neighbors is written in the third person and
+  its fifth round is a moment rather than a years-long state; the promotion
+  round of How might they respond? offers "disappointed" in place of
+  "indifferent"; "wistful" replaces "sorrowful" in One detail changes; and
+  package, cabinet and roommate replace parcel, cupboard and housemate.
+  Then, on his agreement: round 1 of How might they respond? says "Feeling
+  affectionate," like the other four, and every round of that exercise
+  lists your own feeling's meaning first under Word meanings; its intro
+  begins "Each round puts you in a moment with a partner."; and thirteen
+  repeated words were replaced from the app's own vocabulary (vindicated,
+  bittersweet, detached, calm, unconcerned, unmoved, unbothered, impatient,
+  let down, crestfallen, dismayed, flustered, sheepish), each with a meaning
+  checked against Merriam-Webster, so "indifferent" survives only once and
+  the exercises use 63 distinct words instead of 50.
+
+NEW IN v4.5 (6 Sept 2026) - copyright notice (deployed 6 Sept 2026, commit 4ac0279)
   The notice "© 2026 Gary Jacobs. All rights reserved." is on the home screen
   under the doors, at the foot of the "?" sheet beneath the build stamp, in a
   comment at the top of index.html, and at the top of this file. Nothing else
