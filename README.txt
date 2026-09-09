@@ -11,7 +11,55 @@ to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
-NEW IN v4.7 (7 Sept 2026) - the Spoken coach deals each kind of call from a shuffled deck (deployed 8 Sept 2026)
+NEW IN v4.8 (9 Sept 2026) - fifteen rounds in each of the four Practice exercises (deployed 9 Sept 2026)
+  "How might they respond?", "Name it", "Close neighbors" and "One detail
+  changes" each have fifteen rounds instead of five: forty new rounds and 232
+  new word meanings, so the Practice glossary is 298 words, every one with its
+  Merriam-Webster link on the screen. The new rounds were drafted from a brief
+  with fourteen hard constraints (allowed vocabulary, no word reused, a spread
+  across the seven families and the five intensities, situation length, the
+  form of every reading and comparison). Every constraint a script can judge
+  was checked twice, by our own checker and by the validator that came with
+  the package, against the merged file rather than the package. All 243 cited
+  dictionary pages were fetched and read; thirteen of the 232 meanings carry
+  Gary's wording rather than ChatGPT's, and the other 219 stand as written.
+
+  Four of the new Close neighbors rounds paired a character trait against a
+  feeling, which the app's own word list contradicts - it files each pair in
+  the same family at the same intensity. On Gary's ruling they were replaced
+  by feeling-against-feeling pairs: "The forgotten container" (disgusted /
+  appalled), "The glassblower's window" (interested / engrossed), "A
+  neighbor's new bicycle" (longing / jealous) and "Waiting on the panel"
+  (assured / sanguine). Contemptuous, nosy, covetous, possessive and smug
+  leave the Practice glossary; appalled, engrossed, jealous, longing and
+  sanguine take their place, each meaning taken from the Merriam-Webster
+  sense read on the day.
+
+  Also in this build, on Gary's rulings of 9 Sept 2026:
+    - the Practice list reads The ladder, How might they respond?, Name it,
+      Close neighbors, One detail changes, Name 30 in a minute. The naming
+      drill moves from the top to the bottom.
+    - the description under "Name it" is now "Find the emotions that fit your
+      response in each situation."
+    - the line above every Word meanings list explains the root-form sources:
+      where the dictionary has no entry for the word itself, the source shown
+      is the entry the word is formed from.
+    - the two end-of-exercise lines say fifteen instead of five, and three
+      labels held in the data file but never displayed were corrected from
+      five and twenty to fifteen and sixty, so that nothing in the file
+      contradicts what the app does.
+    - the three buttons in the bar at the bottom of every inner screen mark
+      the open one with aria-current instead of aria-selected. Nothing looks
+      different; a screen reader can now say which section you are in, which
+      it could not before. This corrects a defect that was in the deployed
+      v4.7 build on every inner screen.
+
+  The five rounds already live are unchanged and still come first, and the
+  931 words, the 65 ranking ladders, the twelve dialogue rules and the
+  Coach's calls are byte-for-byte what v4.7 deployed. The merge ran under a
+  ten-gate build protocol kept in scene-coach-source/gates/.
+
+NEW IN v4.7 (7 Sept 2026) - the Spoken coach deals each kind of call from a shuffled deck (deployed 8 Sept 2026, commit 0cebb72)
   Actions, objects, discoveries, body states, speech restrictions, silent
   switches and dialogue rules are each dealt from a shuffled deck: no call
   of a kind is repeated until every call of that kind has been spoken once,
