@@ -1,5 +1,5 @@
 // Cache everything on install; serve from cache first so the app works offline.
-const CACHE = 'emotions-76eae6c1';
+const CACHE = 'emotions-e264679b';
 const ASSETS = ['./', './index.html', './manifest.webmanifest',
                 './icon-192.png', './icon-512.png', './icon-512-maskable.png',
                 './apple-touch-icon.png'];

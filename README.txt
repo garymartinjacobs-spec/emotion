@@ -4,14 +4,71 @@ SCENE COACH (formerly Emotional Vocabulary) - the installable app (v4)
 
 WHAT THIS IS
 A web app that installs on iPhone and Android like any other app, with an icon
-on the home screen, and works with no signal. All 931 words in both groupings
-(seven families and thirteen), the "how you make me feel" strip, the 60-second naming DRILL (say it or type it,
+on the home screen, and works with no signal. All 1,011 words in both groupings
+(seven families and thirteen, plus the "How You Make Me Feel" strip), the 60-second naming DRILL (say it or type it,
 cued by family or not, with a personal best), and RANKING - homework: ladders of up
 to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
-NEW IN v4.8 (9 Sept 2026) - fifteen rounds in each of the four Practice exercises (deployed 9 Sept 2026)
+NEW IN v4.10 (15-18 Sept 2026) - the text build, from the review of every screen's text
+  Every screen's text was read on 10 Sept 2026 (29 findings plus two cleanup
+  items) and Gary ruled on all 31 on 15 Sept. All of it is in this build, under
+  a rulings ledger (gates/ledger_v410.json) that the audits check line by line.
+  What a student sees: the count line says 1,011 words (every distinct word the
+  app holds, How You Make Me Feel included); the Emotional Vocabulary door and
+  Help describe the three tabs (words, situations, ladders); the ladder copy
+  says "eight to ten words from one family or one group inside it" and calls
+  the app's answer "our placing" everywhere; the Words footer and Help say
+  "Tap any word to see it said with the emotion word and without it"; the
+  one-family drill names the open family and how many words the app holds for
+  it, instead of "nobody holds twenty anger words"; the drill card and subtitle
+  use digits; rule 4's title and the Coach's speech restriction both read
+  "I feel, I am, I want, I think"; "chitchat", "step around", "the other way
+  around"; Fear's THINK line matches its cue; the five How You Make Me Feel
+  headings lose their periods; four sample lines use an ellipsis character;
+  the Coach's "How to use" is three paragraphs. In Situations: Close neighbors
+  round 11 pairs longing with envious (two people and one thing); eight rounds
+  lose the emphasis line that gave the answer away (six on 15 Sept, two more on
+  16 Sept, each with one showing sentence instead); all fifteen explanations no
+  longer share one sentence pattern; seven situations name their particular
+  thing; the road test and the chess round are reworded; four pairs of words
+  that shared one meaning each have their own (blue/dejected, enraged/wrathful,
+  furious/livid, gratified/pleased); the two Oxford links point at the American
+  edition. The word card's "Report a problem" link now writes to
+  info@bethesdaimprov.com. Sixteen unread fields of the shared copy are gone.
+  Also fixed: the one-family drill opened from a Thirteen-families family
+  threw an error in v4.9 ("Ten from undefined"); it now works from every family.
+  Gary's rulings of 16 Sept: Close neighbors round 4's explanation varied with
+  the others; the road test opens "Outside the licensing office"; no drill on
+  the Physical States and Body and Energy States screens, whose words are not
+  drill words; digits in the drill's heading, the family-screen button and the
+  result line ("10 from Anger", "7 in 60 seconds. 10 reached."). Rulings of
+  18 Sept, after an independent review of the build: the one-family drill
+  belongs to the view it was opened from (from the Thirteen view's Anger it
+  says the app holds a hundred and thirteen and counts only those words; the
+  Seven view's says a hundred and seventy-one, as before); and a search typed
+  with a typographic apostrophe, as an iPhone with Smart Punctuation types it,
+  finds what the straight one finds; and Help says the harder drill sits at the
+  foot of every emotion family's own screen.
+
+NEW IN v4.9 (10 Sept 2026) - the design pass and the tab restructure (deployed 10 Sept 2026, commit 8fa3309)
+  From ChatGPT's review of v4.8's appearance: the empty search count takes no
+  space, Clear appears only with text, the segmented controls are 48 px (44
+  for the small ones), the word heads its own panel, the intensity scale is a
+  scale of marked steps rather than five boxes, the doors carry a chevron, the
+  Spoken coach pauses and resumes, the Practice round line counts the words
+  settled ("2 of 6 done"), every emotion word is in the serif, the family and
+  subgroup names are in title case, the "?" button says "Help", the Name it
+  choices are one segmented control per word and the situation is set as a
+  quotation with a rule down its left edge. Then the tabs became Words,
+  Situations and Ladders: the ladder moved into Ladders ("One below, one
+  above"; "Put a ladder in order" first), the naming drill into Words as
+  "Against the clock" (twenty across all families, ten from one family when
+  opened from a family's own screen), and the search block moved below the
+  families.
+
+NEW IN v4.8 (9 Sept 2026) - fifteen rounds in each of the four Practice exercises (deployed 9 Sept 2026, commit 8eb14a1)
   "How might they respond?", "Name it", "Close neighbors" and "One detail
   changes" each have fifteen rounds instead of five: forty new rounds and 232
   new word meanings, so the Practice glossary is 298 words, every one with its
