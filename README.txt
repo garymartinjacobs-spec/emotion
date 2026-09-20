@@ -4,14 +4,56 @@ SCENE COACH (formerly Emotional Vocabulary) - the installable app (v4)
 
 WHAT THIS IS
 A web app that installs on iPhone and Android like any other app, with an icon
-on the home screen, and works with no signal. All 1,011 words in both groupings
+on the home screen, and works with no signal. All 1,010 words in both groupings
 (seven families and thirteen, plus the "How You Make Me Feel" strip), the 60-second naming DRILL (say it or type it,
 cued by family or not, with a personal best), and RANKING - homework: ladders of up
 to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
-NEW IN v4.10 (15-18 Sept 2026) - the text build, from the review of every screen's text
+NEW IN v4.11 (19 Sept 2026) - the definitions build
+  Every word of the seven emotion families (866 words) now carries a short
+  definition on its card, under the word and above the intensity scale. A
+  definition opens with the noun of the word's own subgroup (Irritation,
+  Wariness, Grief ...) and then says what separates the word from its
+  neighbors; the 25 words that name their own subgroup (wary, nervous, hurt ...)
+  take a first-person sentence instead ("I think there may be a threat, and I
+  will proceed carefully."). The definitions were drafted 18 Sept 2026 with
+  every word's Merriam-Webster entry opened live, checked by ChatGPT (438
+  exceptions, all resolved against a ladder of American dictionaries), and
+  approved by Gary (rulings ledger, items 9 to 146). They enter the data
+  pipeline as definitions.json (build_master.py -> master.json ->
+  build_app_data.py -> D.defs); the existing notes stay on their cards below
+  the sample line. Physical States and How You Make Me Feel carry no
+  definitions yet. Help, under Words, gains a paragraph that says what a
+  definition is and why a word that names its own group is defined in the
+  first person (the wording Gary approved on 19 Sept 2026).
+  The same work re-filed 26 words into the subgroup their definition opens
+  with, and removed one. Where a subgroup is an intensity band the word took
+  the nearest intensity inside the band: sensitive, frazzled, stressed out (now Nervous, 2);
+  atrabilious (Irritated, 2); grave, depressed (Low, 2); agonize, bereaved,
+  crushed, devastated, inconsolable, tormented, tortured (Grief, 4; Despair
+  keeps three words); defensive (Ashamed, 3); bewildered, discombobulated,
+  disoriented (Thrown, 2). Moved by name with no change of intensity:
+  antipathy (Disgust), animosity (Angry, and the Anger family of the Thirteen
+  view), withdrawn (Numb), stuck (Want: Bored & Restless), earnest and
+  inspired (Eager & Driven), preoccupied (Curious & Absorbed), passive and
+  demure (Status: Humble & Deferential). "wary of" is removed (wary remains),
+  so the count line reads 1,010 words. The 65 ladders keep their words; the
+  placing stored for twelve moved words follows their new intensity (Gary's
+  ruling 147 b), so a card and a ladder never disagree.
+  Also fixed: eleven words are filed both in an emotion family and in How You
+  Make Me Feel (abandoned, betrayed, comforted, encouraged, insulted, let
+  down, neglected, provoked, reassured, rejected, threatened). Tapping one
+  under its emotion family opened the How You Make Me Feel card, and search
+  listed it twice under How You Make Me Feel. Each place now opens its own card.
+  Three new build gates (gates/gate11_definitions.py): the genus gate (a
+  definition must open with the noun of the subgroup the word is filed in),
+  the provenance gate (the text shipped is the text approved, each entry with
+  its source) and the family-word gate (no anchor sentence uses a word of its
+  own family). Sixteen test scripts, test_v411.js among them.
+
+NEW IN v4.10 (15-18 Sept 2026; deployed 18 Sept 2026, commit ac087e5) - the text build, from the review of every screen's text
   Every screen's text was read on 10 Sept 2026 (29 findings plus two cleanup
   items) and Gary ruled on all 31 on 15 Sept. All of it is in this build, under
   a rulings ledger (gates/ledger_v410.json) that the audits check line by line.
