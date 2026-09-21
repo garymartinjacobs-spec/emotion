@@ -1,0 +1,15 @@
+{
+  "serial": 1,
+  "entries": [
+    {
+      "hash": "0d10c9eb1a556f076d9f9ee8c6b6b9a412657716ba6de0539224a9ed13495b06",
+      "through": "2026-11-17",
+      "grandfather": false
+    },
+    {
+      "hash": "a81bf37ce21e02f8b009d25835160ac3b4f614411149a05f0769d14306f651a4",
+      "through": "2026-11-17",
+      "grandfather": true
+    }
+  ]
+}
