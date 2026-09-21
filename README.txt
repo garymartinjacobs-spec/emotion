@@ -11,7 +11,25 @@ to ten words from one family to put in order from least to most intense, our
 placing shown after; saved on the phone and copied to send in. A ? screen carries the instructions inside the app. No app store. No
 developer account. No annual fee.
 
-NEW IN v4.11 (19 Sept 2026) - the definitions build
+NEW IN v4.12 (21 Sept 2026; built by Astra, reviewed and amended by Claude 21 Sept 2026) - the agreement screen and the semester cut-off
+  Agreement before the three doors, with the same terms folded under Help.
+  A class code can arrive in a link or be typed in the installed app. Its end
+  date has one full day of grace in the phone's local calendar. An ended
+  screen replaces the app and accepts the next class code.
+  A fresh, valid access file can extend a date or end a code; failed, slow,
+  malformed or non-200 reads do not revoke access. Resume checks cover
+  pageshow and visibility changes. Previously installed v4.11 phones can
+  use the one-time grandfather path on or before 31 October 2026.
+  The only new phone records are emo-access and emo-agreed.
+  All v4.11 word data, definitions, exercises and existing app text remain
+  unchanged. The build record is ASTRA_REPORT.md; the review record is
+  Scene_Coach_v4.12_Review_21_Sept_2026.md.
+  access.json is NOT included in this app directory or archive. It is
+  maintained separately with the private Scene Coach — Class Codes.html
+  helper. App deploys never upload or overwrite access.json, and compare
+  the live file before and after deployment.
+
+NEW IN v4.11 (19 Sept 2026; deployed 19 Sept 2026, commit 86d5097) - the definitions build
   Every word of the seven emotion families (866 words) now carries a short
   definition on its card, under the word and above the intensity scale. A
   definition opens with the noun of the word's own subgroup (Irritation,
